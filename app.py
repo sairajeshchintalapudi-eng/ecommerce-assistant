@@ -61,7 +61,7 @@ def call_gemini_vision(image: Optional[Image.Image], combined_query: str) -> tup
     contents.append(prompt)
 
     response = client.models.generate_content(
-        model="gemini-3.0-flash",
+        model="gemini-1.5-flash",
         contents=contents,
         config=types.GenerateContentConfig(
             system_instruction=system_instruction,
