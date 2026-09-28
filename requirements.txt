@@ -1,0 +1,8 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+gradio
+google-genai
+openai-whisper
+gTTS
+pillow
+pydantic
